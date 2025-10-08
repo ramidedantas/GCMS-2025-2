@@ -15,3 +15,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Glauco Vinícius(@GlaucoPrime, colaborador)
 * Gabriel Duda (@Gabriel-Duda, colaborador)
 * Alana Freitas (@lanarayanne, colaboradora)
+* Clarice Queiroz (@Clarice172102, colaboradora)
