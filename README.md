@@ -13,3 +13,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Vitor Silva (@0xffff08, colaborador)
 * Maria Alane (@AlaneOliveira, colaboradora)
 * Glauco Vinícius(@GlaucoPrime, colaborador)
+* Gabriel Duda (@Gabriel-Duda, colaborador)
