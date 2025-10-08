@@ -10,3 +10,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Wallace Gabriel da Silva (@wgabbriel, colaborador)
 * Izabelle Tais (@izab3lle, colaboradora)
 * Julia Soares (@juliasoaresm, colaboradora)
+* Vitor Silva (@0xffff08, colaborador)
