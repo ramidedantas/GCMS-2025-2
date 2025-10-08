@@ -22,3 +22,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Rebeka Andrade (@Peixe-blue, colaboradora)
 * Davi Freitas (@DCF-2, colaborador)
 * Samara Silva (@samaravictoria10, colaboradora)
+* Gustavo Medeiros (@gustavo-mdrs, colaborador)
