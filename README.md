@@ -16,3 +16,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Gabriel Duda (@Gabriel-Duda, colaborador)
 * Alana Freitas (@lanarayanne, colaboradora)
 * Clarice Queiroz (@Clarice172102, colaboradora)
+* Marina Costa (@mcdssd, colaboradora
