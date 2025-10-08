@@ -11,3 +11,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Izabelle Tais (@izab3lle, colaboradora)
 * Julia Soares (@juliasoaresm, colaboradora)
 * Vitor Silva (@0xffff08, colaborador)
+* Maria Alane (@AlaneOliveira, colaboradora)
