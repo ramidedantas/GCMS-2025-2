@@ -20,3 +20,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Marcos André (@Marcos-0215, colaborador)
 * Guilherme Paradiso (@Guilherme-Paradiso, colaborador)
 * Rebeka Andrade (@Peixe-blue, colaboradora)
+* Davi Freitas (@DCF-2, colaborador)
