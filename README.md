@@ -23,3 +23,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Davi Freitas (@DCF-2, colaborador)
 * Samara Silva (@samaravictoria10, colaboradora)
 * Gustavo Medeiros (@gustavo-mdrs, colaborador)
+* João Pedro (@JoaoPedropb2005, colaborador)
