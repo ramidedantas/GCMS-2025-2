@@ -19,7 +19,7 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Marina Costa (@mcdssd, colaboradora)
 * Marcos André (@Marcos-0215, colaborador)
 * Guilherme Paradiso (@Guilherme-Paradiso, colaborador)
-* Rebeka Andrade (@Peixe-blue, colaboradora)
+* Rebeka Andrade (@rebeka-andrade, colaboradora)
 * Davi Freitas (@DCF-2, colaborador)
 * Samara Silva (@samaravictoria10, colaboradora)
 * Gustavo Medeiros (@gustavo-mdrs, colaborador)
