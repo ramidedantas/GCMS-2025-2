@@ -24,3 +24,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * Samara Silva (@samaravictoria10, colaboradora)
 * Gustavo Medeiros (@gustavo-mdrs, colaborador)
 * João Pedro (@JoaoPedropb2005, colaborador)
+* Wellington Rodrigues (@wellington87rodrigues, colaborador)
