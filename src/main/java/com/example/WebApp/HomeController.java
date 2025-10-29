@@ -17,4 +17,9 @@ public class HomeController {
     return "Hello, Ramide!"; 
   } 
 
+  @RequestMapping("/intellij")
+  public @ResponseBody String greetingIntelliJ() {
+    return "Hello, IntelliJ!";
+  }
+
 }  
