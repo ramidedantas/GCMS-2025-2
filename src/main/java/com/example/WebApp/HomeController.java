@@ -19,8 +19,8 @@ public class HomeController {
   
   @RequestMapping("/eclipse") 
   public @ResponseBody String greetingEclipse() { 
-    return "Hello, Eclipse Eclipse! "; 
-  } 
+    return "Hello, Eclipse Eclipse Eclipse!";
+  }
 
   @RequestMapping("/intellij")
   public @ResponseBody String greetingIntelliJ() {
