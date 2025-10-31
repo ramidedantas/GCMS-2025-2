@@ -1,3 +1,9 @@
+.gradle
+build
+*.class
+*.lock
+*.jar
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
