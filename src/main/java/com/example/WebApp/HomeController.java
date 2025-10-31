@@ -32,4 +32,9 @@ public class HomeController {
     return "Hello, Izabelle!";
   }
 
+  @RequestMapping("/gabriel")
+  public @ResponseBody String greetingGabriel() {
+    return "Hello, Gabriel!";
+  }
+
 }  
