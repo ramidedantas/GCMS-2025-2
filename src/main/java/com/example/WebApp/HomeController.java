@@ -41,5 +41,10 @@ public class HomeController {
   public @ResponseBody String greetingHotfix() {
     return "Hello, Hotfix!";
   }
+  
+  @RequestMapping("/ramide_branch")
+  public @ResponseBody String greetingRamideBranch() {
+    return "Hello, Ramide Branch!";
+  }
 
 }  
