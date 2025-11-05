@@ -14,7 +14,7 @@ public class HomeController {
   
   @RequestMapping("/ramide") 
   public @ResponseBody String greetingRamide() { 
-    return "Hello, Ramide!!!"; 
+    return "Hello, Ramide!!!!!!!"; 
   } 
   
   @RequestMapping("/eclipse") 
@@ -39,7 +39,7 @@ public class HomeController {
   
   @RequestMapping("/hotfix")
   public @ResponseBody String greetingHotfix() {
-    return "Hello, --Hotfix!";
+    return "Hello, Hotfix!";
   }
 
 }  
