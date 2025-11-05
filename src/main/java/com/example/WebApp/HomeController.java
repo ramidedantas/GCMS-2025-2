@@ -49,7 +49,7 @@ public class HomeController {
 
   @RequestMapping("/rasd_fork")
   public @ResponseBody String greetingRasdFork() {
-    return "Hello, Rasd Fork!";
+    return "Hello, Rasd Fork!!!";
   }
 
 }  
