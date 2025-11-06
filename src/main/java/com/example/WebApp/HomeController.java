@@ -52,4 +52,8 @@ public class HomeController {
     return "Hello, Rasd Fork!!!";
   }
 
+  @RequestMapping("/branch_wallace_gabriel")
+  public @ResponseBody String greetingWallaceGabrielBranch() {
+    return "Hello, Wallace Gabriel Branch!!!";
+  }  
 }  
