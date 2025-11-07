@@ -51,5 +51,10 @@ public class HomeController {
   public @ResponseBody String greetingRasdFork() {
     return "Hello, Rasd Fork!!!";
   }
+  
+  @RequestMapping("/izabelle_fork")
+  public @ResponseBody String greetingIzabelleFork() {
+    return "Hello, Izabelle Fork!!!";
+  }
 
 }  
