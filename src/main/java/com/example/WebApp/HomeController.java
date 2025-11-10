@@ -26,7 +26,12 @@ public class HomeController {
   public @ResponseBody String greetingIntelliJ() {
     return "Hello, IntelliJ!";
   }
-  
+
+  @RequestMapping("/glauco")
+  public @ResponseBody String greeetingGlauco() {
+    return "Hello, Glauco!"
+  }
+
   @RequestMapping("/izabelle")
   public @ResponseBody String greetingIzabelle() {
     return "Hello, Izabelle!";
