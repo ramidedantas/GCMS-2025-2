@@ -1,24 +1,24 @@
-package com.example.WebApp; 
- 
-import org.springframework.stereotype.Controller; 
-import org.springframework.web.bind.annotation.RequestMapping; 
-import org.springframework.web.bind.annotation.ResponseBody; 
- 
-@Controller 
-public class HomeController { 
- 
-  @RequestMapping("/") 
-  public @ResponseBody String greeting() { 
-    return "Hello, World!!!!"; 
-  } 
-  
-  @RequestMapping("/ramide") 
-  public @ResponseBody String greetingRamide() { 
-    return "Hello, Ramide!!!!!!!"; 
-  } 
-  
-  @RequestMapping("/eclipse") 
-  public @ResponseBody String greetingEclipse() { 
+package com.example.WebApp;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+public class HomeController {
+
+  @RequestMapping("/")
+  public @ResponseBody String greeting() {
+    return "Hello, World!!!!";
+  }
+
+  @RequestMapping("/ramide")
+  public @ResponseBody String greetingRamide() {
+    return "Hello, Ramide!!!!!!!";
+  }
+
+  @RequestMapping("/eclipse")
+  public @ResponseBody String greetingEclipse() {
     return "Hello, Eclipse Eclipse Eclipse!";
   }
 
@@ -27,11 +27,11 @@ public class HomeController {
     return "Hello, IntelliJ!";
   }
 
-   @RequestMapping("/glauco")
+  @RequestMapping("/glauco")
   public @ResponseBody String greeetingGlauco() {
     return "Hello, Glauco!";
   }
-  
+
   @RequestMapping("/izabelle")
   public @ResponseBody String greetingIzabelle() {
     return "Hello, Izabelle!";
@@ -41,12 +41,12 @@ public class HomeController {
   public @ResponseBody String greetingGabriel() {
     return "Hello, Gabriel!";
   }
-  
+
   @RequestMapping("/hotfix")
   public @ResponseBody String greetingHotfix() {
     return "Hello, Hotfix!";
   }
-  
+
   @RequestMapping("/ramide_branch")
   public @ResponseBody String greetingRamideBranch() {
     return "Hello, Ramide Branch!";
@@ -57,20 +57,24 @@ public class HomeController {
     return "Hello, Rasd Fork!!!";
   }
 
-   @RequestMapping("/Davi")
+  @RequestMapping("/Davi")
   public @ResponseBody String greetingDavi() {
     return "Hello, Davi!";
   }
-  
+
   @RequestMapping("/Joao")
   public @ResponseBody String greetingJoao() {
     return "Hello, Joao!";
   }
 
-    @RequestMapping("/Guilherme")
+  @RequestMapping("/Guilherme")
   public @ResponseBody String greetingGuilherme() {
     return "Hello, Guilherme!";
   }
 
+  @RequestMapping("/Rebeka")
+  public @ResponseBody String greetingRebeka() {
+    return "Hello, Rebeka!";
+  }
 
-}  
+}
