@@ -1,4 +1,4 @@
-package com.example.WebApp; 
+package com.example.WebApp;
  
 import org.springframework.stereotype.Controller; 
 import org.springframework.web.bind.annotation.RequestMapping; 
@@ -60,6 +60,11 @@ public class HomeController {
    @RequestMapping("/Davi")
   public @ResponseBody String greetingDavi() {
     return "Hello, Davi!";
+  }
+
+   @RequestMapping("/Davi_Freitas_Branch")
+  public @ResponseBody String greetingDavi_Freitas_Branch() {
+    return "Hello, Davi Branch!";
   }
   
   @RequestMapping("/Joao")
