@@ -62,6 +62,12 @@ public class HomeController {
     return "Hello, Davi!";
   }
   
+  //Fork de Davi Freitas (@DCF-2)
+  @RequestMapping("/davi_fork")
+  public @ResponseBody String greetingDaviFork() {
+    return "Hello, Davi Fork!!!";
+  }
+  
   @RequestMapping("/Joao")
   public @ResponseBody String greetingJoao() {
     return "Hello, Joao!";
