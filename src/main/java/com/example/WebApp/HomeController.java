@@ -92,4 +92,9 @@ public class HomeController {
     return "Hello, GuilhermeFork!";
   }
 
+  @RequestMapping("/GuilhermeForkParteQuatro")
+  public @ResponseBody String GuilhermeForkParteQuatro() {
+    return "Hello, GuilhermeForkParteQuatro!";
+  }
+
 }
