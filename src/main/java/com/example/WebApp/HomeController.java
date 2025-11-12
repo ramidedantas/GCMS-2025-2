@@ -66,6 +66,16 @@ public class HomeController {
   public @ResponseBody String greetingDavi() {
     return "Hello, Davi!";
   }
+  
+   @RequestMapping("/DaviBranch")
+  public @ResponseBody String greetingDaviBranch() {
+    return "Hello, Davi Branch!";
+  }
+
+   @RequestMapping("/DaviFork")
+  public @ResponseBody String greetingDaviFork() {
+    return "Hello, Davi Fork!";
+  }
 
   @RequestMapping("/Joao")
   public @ResponseBody String greetingJoao() {
@@ -87,16 +97,20 @@ public class HomeController {
     return "Hello, Rebeka!";
   }
 
+  @RequestMapping("/GuilhermeBranch")
+  public @ResponseBody String greetingGuilhermeBranch() {
+    return "Hello, GuilhermeBranch! ";
+  }
+
   @RequestMapping("/GuilhermeFork")
   public @ResponseBody String greetingGuilhermeFork() {
-    return "Hello, GuilhermeFork !";
+    return "Hello, GuilhermeFork! ";
   }
 
-  //Fork de Davi Freitas (@DCF-2)
-  @RequestMapping("/davi_fork")
-  public @ResponseBody String greetingDaviFork() {
-    return "Hello, Davi Fork!!!";
+  @RequestMapping("/glauco_branch")
+  public @ResponseBody String greetingGlaucoBranch() {
+    return "Hello, branch glauco!";
   }
-  
 
 }
+
