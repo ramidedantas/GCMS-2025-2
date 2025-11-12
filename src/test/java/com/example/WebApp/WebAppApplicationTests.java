@@ -102,10 +102,10 @@ class WebAppApplicationTests {
 
   @Test
   public void shouldReturnGuilhermeForkParteQuatro() throws Exception {
-    this.mockMvc.perform(get("/GuilhermeForkParteQuatro"))
+    this.mockMvc.perform(get("/GuilhermeFork"))
         .andDo(print()).andExpect(status().isOk())
         .andExpect(content()
-            .string(containsString("Hello, GuilhermeForkParteQuatro!")));
+            .string(containsString("Hello, GuilhermeFork!")));
   }
 
 
