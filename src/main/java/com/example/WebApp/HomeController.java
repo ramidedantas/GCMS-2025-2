@@ -97,4 +97,10 @@ public class HomeController {
     return "Hello, GuilhermeFork! ";
   }
 
+  @RequestMapping("/glauco_branch")
+  public @ResponseBody String greetingGlaucoBranch() {
+    return "Hello, branch glauco!";
+  }
+
+}
 }
