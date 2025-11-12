@@ -93,11 +93,11 @@ class WebAppApplicationTests {
   }
 
     @Test
-  public void shouldReturnGuilhermeFork() throws Exception {
-    this.mockMvc.perform(get("/GuilhermeFork"))
+  public void shouldReturnGuilhermeBranch() throws Exception {
+    this.mockMvc.perform(get("/GuilhermeBranch"))
         .andDo(print()).andExpect(status().isOk())
         .andExpect(content()
-            .string(containsString("Hello, GuilhermeFork!")));
+            .string(containsString("Hello, GuilhermeBranch!")));
   }
 
   @Test
