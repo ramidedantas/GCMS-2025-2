@@ -79,7 +79,7 @@ public class HomeController {
 
   @RequestMapping("/glauco_fork")
   public @ResponseBody String greetingGlaucoFork() {
-   return "Hello, Glauco fork!";
+   return "Hello, Glauco fork!!";
   }
 
   @RequestMapping("/Guilherme")
