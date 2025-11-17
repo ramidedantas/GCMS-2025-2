@@ -111,4 +111,9 @@ public class HomeController {
     public @ResponseBody String greetingAlana() {
       return "Hello, Alana!";
     }
+  
+  @RequestMapping("/alana_freitas_branch")
+    public @ResponseBody String greetingAlanaBranch() {
+      return "Hello, Alana Freitas Branch!";
+    }
 }
