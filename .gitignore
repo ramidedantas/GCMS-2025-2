@@ -31,5 +31,8 @@ bin/
 ### VS Code ###
 .vscode/
 
+## Intelijay ###
+.idea/
+
 ### Mac OS ###
 .DS_Store
