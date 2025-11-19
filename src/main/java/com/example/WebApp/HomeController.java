@@ -67,10 +67,9 @@ public class HomeController {
 		return "Hello, Davi!";
 	}
   
-  	@RequestMapping("/Alana")
-  	public @ResponseBody String greetingAlana() {
+   	public @ResponseBody String greetingAlana() {
    		return "Hello, Alana!";
-   	}
+  	}
   
   	@RequestMapping("/alana_freitas_branch")
    	public @ResponseBody String greetingAlanaBranch() {
