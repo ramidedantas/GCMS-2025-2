@@ -75,6 +75,14 @@ class WebAppApplicationTests {
             .string(containsString("Hello, Davi Branch!")));
   }
 
+    @Test
+  public void shouldReturnDaviFork() throws Exception {
+    this.mockMvc.perform(get("/Davi_Fork"))
+        .andDo(print()).andExpect(status().isOk())
+        .andExpect(content()
+            .string(containsString("Hello, Davi Fork!")));
+  }
+
   @Test
   public void shouldReturnJoao() throws Exception {
     this.mockMvc.perform(get("/Joao"))

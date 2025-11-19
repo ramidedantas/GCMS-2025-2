@@ -72,6 +72,11 @@ public class HomeController {
 		return "Hello, Davi Branch!";
 	}
 
+	@RequestMapping("/Davi_Fork")
+	public @ResponseBody String greetingDavi_Fork() {
+		return "Hello, Davi Fork!";
+	}
+
 	@RequestMapping("/Joao")
 	public @ResponseBody String greetingJoao() {
 		return "Hello, Joao!";
