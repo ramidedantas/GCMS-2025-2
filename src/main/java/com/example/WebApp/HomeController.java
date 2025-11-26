@@ -168,5 +168,10 @@ public class HomeController {
     String greetingClarice() {
         return "Hello, Clarice!?!?";
     }
+    @RequestMapping("/vitor")
+    public @ResponseBody
+    String greetingVitor() {
+        return "Olá, Vitor!!!";
+    }
 
 }
