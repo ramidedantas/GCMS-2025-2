@@ -168,5 +168,21 @@ public class HomeController {
     String greetingClarice() {
         return "Hello, Clarice!!!";
     }
+    @RequestMapping("/vitor")
+    public @ResponseBody
+    String greetingVitor() {
+        return "Olá, Vitor!!!";
+    }
 
+    @RequestMapping("/branch_wallace_gabriel")
+    public @ResponseBody
+    String greetingBranchWallaceGabriel() {
+        return "Hello, Wallace Gabriel Branch!";
+    }
+
+    @RequestMapping("/fork_wallace_gabriel")
+    public @ResponseBody
+    String greetingForkWallaceGabriel() {
+        return "Hello, Wallace Gabriel Fork!";
+    }
 }
