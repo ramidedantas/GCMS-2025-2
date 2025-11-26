@@ -90,7 +90,7 @@ public class HomeController {
     String greetingAlanaBranch() {
         return "Hello, Alana Freitas Branch!";
     }
-
+    
     @RequestMapping("/Davi_Branch")
     public @ResponseBody
     String greetingDavi_Branch() {
@@ -145,17 +145,11 @@ public class HomeController {
         return "Hello, GuilhermeFork! ";
     }
 
-<<<<<<< HEAD
 	@RequestMapping("/RebekaBranch")
 	public @ResponseBody String greetingRebekaBranch() {
 		return "Hello, RebekaBranch!";
 	}
-	
-	@RequestMapping("/alana_freitas_branch")
-	public @ResponseBody String alanaBranch() { 
-		return "Hello, Alana Freitas Branch!"; 
-	}
-	
+		
 	@RequestMapping("/wellington")
 	public @ResponseBody String greetingWellington() {
 		return "Olá, Wellington!!!";
@@ -165,23 +159,11 @@ public class HomeController {
 	public @ResponseBody String greetingWellington_branch() {
 		return "Olá, WellingtonBranch!!!";
 	}
-=======
+
     @RequestMapping("/izabelle_fork")
     public @ResponseBody
     String greetingIzabelleFork() {
         return "Hello, Izabelle Fork!!!";
-    }
-
-    @RequestMapping("/RebekaBranch")
-    public @ResponseBody
-    String greetingRebekaBranch() {
-        return "Hello, RebekaBranch!";
-    }
-
-    @RequestMapping("/wellington")
-    public @ResponseBody
-    String greetingWellington() {
-        return "Olá, Wellington!!!";
     }
 
     @RequestMapping("/Clarice")
@@ -200,5 +182,10 @@ public class HomeController {
     String greetingBranchWallaceGabriel() {
         return "Hello, Wallace Gabriel Branch!";
     }
->>>>>>> c25c2b335069821d2a819c415b421a2c20c6f215
+
+    @RequestMapping("/fork_wallace_gabriel")
+    public @ResponseBody
+    String greetingForkWallaceGabriel() {
+        return "Hello, Wallace Gabriel Fork!";
+    }
 }
