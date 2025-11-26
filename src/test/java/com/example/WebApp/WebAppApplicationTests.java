@@ -147,6 +147,14 @@ class WebAppApplicationTests {
             .string(containsString("Olá, Wellington!!!")));
   }
 
+@Test
+public void shouldReturnWellingtonBranch() throws Exception {
+  this.mockMvc.perform(get("/wellington_branch"))
+      .andDo(print()).andExpect(status().isOk())
+      .andExpect(content()
+          .string(containsString("Olá, Wellington_branch!!!")));
+}
+
 
 
 }

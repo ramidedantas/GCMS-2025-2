@@ -146,4 +146,9 @@ public class HomeController {
 	public @ResponseBody String greetingWellington() {
 		return "Olá, Wellington!!!";
 	}
+	
+	@RequestMapping("/wellington_branch")
+	public @ResponseBody String greetingWellington_branch() {
+		return "Olá, WellingtonBranch!!!";
+	}
 }
