@@ -165,7 +165,7 @@ class WebAppApplicationTests {
     }
     
     @Test
-    public void shouldReturnWellingtonBranch() throws Exception {
+    public void shouldReturnWellington_Branch() throws Exception {
       this.mockMvc.perform(get("/wellington_branch"))
           .andDo(print()).andExpect(status().isOk())
           .andExpect(content()
