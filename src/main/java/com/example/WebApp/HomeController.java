@@ -192,5 +192,10 @@ public class HomeController {
     @RequestMapping("/gustavo")
     public @ResponseBody String greetingGustavo() {
     return "Hello, Gustavo!";
-}
+    }
+
+     @RequestMapping("/gustavo_branch")
+    public @ResponseBody String greetingGustavoBranch() {
+    return "Hello, Gustavo branch!";
+    }
 }
