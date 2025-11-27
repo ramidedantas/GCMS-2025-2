@@ -188,4 +188,9 @@ public class HomeController {
     String greetingForkWallaceGabriel() {
         return "Hello, Wallace Gabriel Fork!";
     }
+
+    @RequestMapping("/gustavo")
+    public @ResponseBody String greetingGustavo() {
+    return "Hello, Gustavo!";
+}
 }
