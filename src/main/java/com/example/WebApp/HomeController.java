@@ -205,5 +205,9 @@ public class HomeController {
         return "Hello, Marcos André!";
     }
 
+    @RequestMapping("/alana_fork")
+    public @ResponseBody String greetingAlanaFork() {
+        return "Hello, Alana Fork!";
+    }
     
 }
