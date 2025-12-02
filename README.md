@@ -27,3 +27,4 @@ Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 * João Pedro (@JoaoPedropb2005, colaborador)
 * Délis Gomes (@delissantos, colaboradora)
 * Wellington Rodrigues (@wellington87rodrigues, colaborador)
+* Thais Timoteo (@Thais-Timoteo, colaboradora)
