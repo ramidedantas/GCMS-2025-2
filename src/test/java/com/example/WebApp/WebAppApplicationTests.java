@@ -220,7 +220,7 @@ class WebAppApplicationTests {
   }
   
   @Test
-  public void shouldReturnMarcosAndre() throws Exception {
+  public void shouldReturnJulia() throws Exception {
       this.mockMvc.perform(get("/julia"))
           .andDo(print()) 
           .andExpect(status().isOk())
