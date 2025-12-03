@@ -177,6 +177,12 @@ public class HomeController {
     String greetingClariceBranch() {
         return "Hello, Clarice Queiroz branch!";
     }
+    @RequestMapping("/Clarice_fork")
+    public @ResponseBody
+    String greetingClariceFork() {
+        return "Hello, Clarice fork!";
+    }
+    
     @RequestMapping("/vitor")
     public @ResponseBody
     String greetingVitor() {
