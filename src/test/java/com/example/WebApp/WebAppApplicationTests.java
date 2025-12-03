@@ -224,7 +224,7 @@ class WebAppApplicationTests {
       this.mockMvc.perform(get("/julia"))
           .andDo(print()) 
           .andExpect(status().isOk())
-          .andExpect(content().string(containsString("Hello, Julia! Pratica 3 teste")));
+          .andExpect(content().string(containsString("Hello, Julia!?!?")));
   }
 
 }
