@@ -216,4 +216,9 @@ public class HomeController {
         return "Hello, Alane!!!!!!";
     }
     
+    @RequestMapping("/marcosandre_fork")
+    public @ResponseBody String greetingMarcosAndreFork() {
+        return "Hello, Marcos André FORK!";
+    }
+    
 }
