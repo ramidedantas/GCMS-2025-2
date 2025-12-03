@@ -227,4 +227,10 @@ public class HomeController {
         return "Hello, Marcos André FORK!";
     }
     
+    @RequestMapping("/julia")
+    public @ResponseBody String greetingJulia() {
+        return "Hello, Julia!?!?";
+    }
+
+    
 }
