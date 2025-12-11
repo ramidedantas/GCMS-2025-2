@@ -241,6 +241,12 @@ public class HomeController {
     public @ResponseBody String greetingThais() {
         return "Hello, Thais!";
     }
+    
+    @GetMapping("/hotfix")
+    public String hotfix() {
+        return "hotfix funcionando!";
+    }
+
 
     
 }
