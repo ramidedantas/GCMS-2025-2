@@ -248,10 +248,5 @@ class WebAppApplicationTests {
         assertEquals("hotfix funcionando!", homeController.hotfix());
     }
     
-
-    @Test
-    public void testHotfix() {
-        assertEquals("hotfix funcionando!", homeController.hotfix());
-    }
     
 }
