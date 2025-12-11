@@ -242,6 +242,12 @@ class WebAppApplicationTests {
           .andExpect(status().isOk())
           .andExpect(content().string(containsString("Hello, Thais!")));
     }
+    
+    @Test
+    public void testHotfix() {
+        assertEquals("hotfix funcionando!", homeController.hotfix());
+    }
+    
 
     @Test
     public void testHotfix() {
