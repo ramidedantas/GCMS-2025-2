@@ -238,19 +238,9 @@ public class HomeController {
     }
     
     @RequestMapping("/thais")
-    public @ResponseBody String greetingThais() {
-        return "Hello, Thais!";
-    }
-    
-    @GetMapping("/hotfix")
-    public String hotfix() {
-<<<<<<< HEAD
-        return "versão da main";
-=======
-        return "hotfix funcionando!";
->>>>>>> hotfix
+    public @ResponseBody String greetingThaisTimoteo() {
+        return "Hello, Thais Timoteo!";
     }
 
 
-    
 }
