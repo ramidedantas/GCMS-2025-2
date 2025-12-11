@@ -242,11 +242,4 @@ public class HomeController {
         return "Hello, Thais Timoteo!";
     }
     
-    @GetMapping("/hotfix")
-    public String hotfix() {
-        return "hotfix funcionando!";
-    }
-
-
-    
 }
