@@ -247,6 +247,12 @@ public class HomeController {
         return "Hello, Gabriel!";
     }
     
+    @RequestMapping("/gabriel_duda")
+    public @ResponseBody
+    String greetingBranchWallaceGabriel() {
+        return "Hello, Gabriel Branch!";
+    }
+    
     @GetMapping("/hotfix")
     public String hotfix() {
 <<<<<<< HEAD
