@@ -246,6 +246,13 @@ public class HomeController {
     public @ResponseBody String greetingThais() {
         return "Hello, Gabriel!";
     }
+
+    @RequestMapping("/marina_branch")
+    public @ResponseBody String marina_branch() {
+        return "Hello, marina_branch";
+    }
+    
+
     
     @GetMapping("/hotfix")
     public String hotfix() {
