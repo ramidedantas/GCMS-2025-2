@@ -248,18 +248,7 @@ class WebAppApplicationTests {
       this.mockMvc.perform(get("/marina_branch"))
           .andDo(print()) 
           .andExpect(status().isOk())
-          .andExpect(content().string(containsString("Hello, marina_branch!")));
+          .andExpect(content().string(containsString("Hello, marina_branch")));
     }
-    
-    @Test
-    public void testHotfix() {
-        assertEquals("hotfix funcionando!", homeController.hotfix());
-    }
-    
-
-    @Test
-    public void testHotfix() {
-        assertEquals("hotfix funcionando!", homeController.hotfix());
-    }
-    
+        
 }

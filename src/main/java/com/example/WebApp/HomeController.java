@@ -255,10 +255,5 @@ public class HomeController {
     String greetingBranchGabrielDuda() {
         return "Hello, Gabriel Branch!";
     }
-    
-    @RequestMapping("/hotfix")
-    public String hotfix() {
-        return "hotfix funcionando!";
-    }
-    
+        
 }
