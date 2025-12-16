@@ -249,13 +249,7 @@ public class HomeController {
     
     @GetMapping("/hotfix")
     public String hotfix() {
-<<<<<<< HEAD
-        return "versão da main";
-=======
         return "hotfix funcionando!";
->>>>>>> hotfix
     }
-
-
     
 }
