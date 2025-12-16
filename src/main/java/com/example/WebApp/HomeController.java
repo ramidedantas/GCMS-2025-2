@@ -79,8 +79,8 @@ public class HomeController {
         return "Hello, Davi!";
     }
 
-    public @ResponseBody
-    @RequestMapping("/Alana")
+	@RequestMapping("/Alana")
+    public @ResponseBody    
     String greetingAlana() {
         return "Hello, Alana!";
     }
@@ -146,17 +146,20 @@ public class HomeController {
     }
 
 	@RequestMapping("/RebekaBranch")
-	public @ResponseBody String greetingRebekaBranch() {
+	public @ResponseBody 
+	String greetingRebekaBranch() {
 		return "Hello, RebekaBranch!";
 	}
 		
 	@RequestMapping("/wellington")
-	public @ResponseBody String greetingWellington() {
+	public @ResponseBody 
+	String greetingWellington() {
 		return "Olá, Wellington!!!";
 	}
 	
 	@RequestMapping("/wellington_branch")
-	public @ResponseBody String greetingWellington_branch() {
+	public @ResponseBody 
+	String greetingWellington_branch() {
 		return "Olá, Wellington_branch!!!";
 	}
 
@@ -172,7 +175,7 @@ public class HomeController {
         return "Hello, Clarice!!!";
     }
     
-     @RequestMapping("/clarice_queiroz_branch")
+    @RequestMapping("/clarice_queiroz_branch")
     public @ResponseBody
     String greetingClariceBranch() {
         return "Hello, Clarice Queiroz branch!";
@@ -202,7 +205,8 @@ public class HomeController {
     }
 
     @RequestMapping("/gustavo")
-    public @ResponseBody String greetingGustavo() {
+    public @ResponseBody 
+	String greetingGustavo() {
     return "Hello, Gustavo!";
 }
     
@@ -218,7 +222,6 @@ public class HomeController {
     @RequestMapping("/Alane")
     public @ResponseBody
     String greetingAlane() {
-
         return "Hello, Alane!!!!!!";
     }
     
@@ -243,7 +246,7 @@ public class HomeController {
     }
     
     @RequestMapping("/gabriel")
-    public @ResponseBody String greetingThais() {
+    public @ResponseBody String greetingGabriel() {
         return "Hello, Gabriel!";
     }
 
@@ -252,15 +255,13 @@ public class HomeController {
         return "Hello, marina_branch";
     }
     
-
-    
     @RequestMapping("/gabriel_duda")
     public @ResponseBody
     String greetingBranchWallaceGabriel() {
         return "Hello, Gabriel Branch!";
     }
     
-    @GetMapping("/hotfix")
+    @RequestMapping("/hotfix")
     public String hotfix() {
         return "hotfix funcionando!";
     }
