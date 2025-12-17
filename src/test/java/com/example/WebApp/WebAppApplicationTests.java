@@ -227,4 +227,28 @@ class WebAppApplicationTests {
           .andExpect(content().string(containsString("Hello, Julia!?!?")));
   }
 
+    @Test
+  public void shouldReturnMarina() throws Exception {
+      this.mockMvc.perform(get("/marina"))
+          .andDo(print()) 
+          .andExpect(status().isOk())
+          .andExpect(content().string(containsString("Hello, Marina!")));
+  }
+    
+    @Test
+  public void shouldReturnThais() throws Exception {
+      this.mockMvc.perform(get("/thais"))
+          .andDo(print()) 
+          .andExpect(status().isOk())
+          .andExpect(content().string(containsString("Hello, Thais!")));
+    }
+
+    @Test
+  public void shouldReturnMarinaBranch() throws Exception {
+      this.mockMvc.perform(get("/marina_branch"))
+          .andDo(print()) 
+          .andExpect(status().isOk())
+          .andExpect(content().string(containsString("Hello, marina_branch")));
+    }
+        
 }
