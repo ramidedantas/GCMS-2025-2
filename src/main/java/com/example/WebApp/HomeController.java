@@ -260,5 +260,10 @@ public class HomeController {
     String greetingBranchGabrielDuda() {
         return "Hello, Gabriel Branch!";
     }
+    
+    @RequestMapping("/julia_fork")
+    public @ResponseBody String greetingJuliaFork() {
+        return "Hello, Julia FORK!";
+    }
         
 }
