@@ -274,4 +274,11 @@ class WebAppApplicationTests {
               .andExpect(content()
                       .string(containsString("Hello, Samara!")));
   }
+
+  @Test
+public void greetingDelisTest() throws Exception {
+    mvc.perform(get("/delis"))
+        .andExpect(status().isOk())
+        .andExpect(content().string("Hello, Deliss!?!?"));
+}
 }

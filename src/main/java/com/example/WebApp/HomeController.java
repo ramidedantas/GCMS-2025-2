@@ -244,6 +244,6 @@ public class HomeController {
 
     @RequestMapping("/delis")
     public @ResponseBody String greetingDelis() {
-    return "Hello, Delis!?!?";
+    return "Hello, Deliss!?!?";
 }
 }
