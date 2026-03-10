@@ -277,8 +277,15 @@ class WebAppApplicationTests {
 
   @Test
 public void greetingDelisTest() throws Exception {
-    mvc.perform(get("/delis"))
+     this.mockMvc.perform(get("/delis"))
         .andExpect(status().isOk())
         .andExpect(content().string("Hello, Deliss!?!?"));
+}
+
+  @Test
+public void greetingDelisTestBranch() throws Exception {
+   this.mockMvc.perform(get("/delisbranch"))
+        .andExpect(status().isOk())
+        .andExpect(content().string("Hello, Deliss Branch!?!?"));
 }
 }
