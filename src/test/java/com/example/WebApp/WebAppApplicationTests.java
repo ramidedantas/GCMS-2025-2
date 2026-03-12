@@ -277,8 +277,8 @@ class WebAppApplicationTests {
 
   @Test
 public void greetingDelisTest() throws Exception {
-    mvc.perform(get("/delis"))
+    this.mockMvc.perform(get("/delis"))
         .andExpect(status().isOk())
-        .andExpect(content().string("Hello, Deliss!?!?"));
+        .andExpect(content().string("Hello, Delisss!?!?"));
 }
 }
