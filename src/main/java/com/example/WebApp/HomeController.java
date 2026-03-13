@@ -232,11 +232,6 @@ public class HomeController {
         return "Hello, Julia FORK!";
     }
 
-    @RequestMapping("/samara")
-    public @ResponseBody String greetingSamara() {
-        return "Hello, Samara!";
-    }
-
     @RequestMapping("/gabriel_fork")
     public @ResponseBody String greetingGabrielFork() {
         return "Hello, Gabriel FORK!";
@@ -246,4 +241,10 @@ public class HomeController {
     public @ResponseBody String greetingDelis() {
     return "Hello, Delisss!?!?";
 }
+
+ @RequestMapping("/samara")
+    public @ResponseBody String greetingSamara() {
+        return "Hello, Samara!";
+    }
+
 }
