@@ -281,4 +281,13 @@ public void greetingDelisTest() throws Exception {
         .andExpect(status().isOk())
         .andExpect(content().string("Hello, Delisss!?!?"));
 }
+
+ @Test
+public void greetingDelisTest() throws Exception {
+    this.mockMvc.perform(get("/marta"))
+        .andExpect(status().isOk())
+        .andExpect(content().string("Hello, Marta!"));
+}
+
+
 }
